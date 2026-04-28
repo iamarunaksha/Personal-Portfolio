@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🍎 Arunaksha's Portfolio
 
@@ -169,4 +169,3 @@ Or just open the **Mail** app in the portfolio 😄
 Made with ☕ and way too many late nights.
 
 </div>
-]]>
