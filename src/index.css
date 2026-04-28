@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.dock-item {
+  transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  transform-origin: bottom;
+}
+
+.dock-item:hover {
+  transform: scale(1.5) translateY(-10px);
+}
+
+/* Target the icon IMMEDIATELY BEFORE the hovered icon */
+.dock-item:has(+ .dock-item:hover) {
+  transform: scale(1.2) translateY(-5px);
+}
+
+/* Target the icon IMMEDIATELY AFTER the hovered icon */
+.dock-item:hover + .dock-item {
+  transform: scale(1.2) translateY(-5px);
+}
