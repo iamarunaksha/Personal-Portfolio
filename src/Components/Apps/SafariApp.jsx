@@ -59,7 +59,7 @@ export default function SafariApp() {
      
      let formattedName = badgeName;
      if (formattedName.toLowerCase().includes('100 days')) {
-        formattedName = '100 Days';
+        formattedName = '100 Days Badge';
      } else if (formattedName.toLowerCase().includes('50 days')) {
         formattedName = '50 Days';
      } else {
