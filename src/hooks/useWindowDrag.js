@@ -47,6 +47,13 @@ export function useWindowDrag(initialPosition = { x: 100, y: 100 }) {
       // Keep window within the top bounds (don't let it go under the menubar)
       if (newY < 26) newY = 26; // menubar is ~26px high
 
+      // Clamp to viewport so widgets can't be dragged outside the screen
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      if (newX < 0) newX = 0;
+      if (newY > vh - 40) newY = vh - 40; // keep at least 40px visible at bottom
+      if (newX > vw - 40) newX = vw - 40; // keep at least 40px visible on right
+
       setPosition({ x: newX, y: newY });
     };
 
