@@ -36,12 +36,7 @@ export default function Bootscreen({ theme, onComplete }) {
         key={images[imageIndex]} 
         src={images[imageIndex]} 
         alt="booting..." 
-        <img 
-        key={images[imageIndex]} 
-        src={images[imageIndex]} 
-        alt="booting..." 
         className="w-full h-full object-cover animate-pulse"
-      />
       />
     </div>
   );
