@@ -135,7 +135,7 @@ export default function Desktop({ theme, themePreference, setThemePreference }) 
         }`}
       >
         <div className="flex items-center gap-4 text-[13px] leading-none mb-[1px]">
-          <span className="text-[16px] pt-[1px] px-1 cursor-default"></span>
+          <span className="pt-[1px] px-1 cursor-default flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 814 1000" fill="currentColor"><path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57.8-155.5-127.4c-58.2-81-105.5-207.6-105.5-328.5 0-193.2 125.7-295.8 249.2-295.8 65.7 0 120.5 43.1 161.7 43.1 39.2 0 100.4-45.8 174.6-45.8 28.2 0 129.6 2.6 196.6 99.4zM554.1 159.4c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.9 32.4-57.1 83.6-57.1 135.5 0 7.8.6 15.6 1.3 18.2 2.6.6 6.4 1.3 10.2 1.3 45.4 0 102.5-30.4 141.5-71.4z"/></svg></span>
           <span className="font-bold cursor-default">Portfolio</span>
           <span className="font-medium cursor-default">File</span>
           <span className="font-medium cursor-default">Edit</span>
