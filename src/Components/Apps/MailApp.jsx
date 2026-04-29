@@ -90,7 +90,7 @@ export default function MailApp() {
                 </div>
 
                 <div className="mt-12 flex gap-3">
-                  <button className="px-4 py-1.5 rounded-md border border-white/20 hover:bg-white/10 text-white/90 transition-colors flex items-center gap-2" onClick={() => window.open(`https://mail.google.com/mail/?view=cm&to=${portfolioData.email}&su=Re: ${encodeURIComponent(selectedEmail.subject)}`, '_blank')}>
+                  <button className="px-4 py-1.5 rounded-md border border-white/20 hover:bg-white/10 text-white/90 transition-colors flex items-center gap-2" onClick={() => window.open(`https://mail.google.com/mail/?view=cm&to=${portfolioData.email}&su=${encodeURIComponent("Loved your portfolio — let's connect!")}`, '_blank')}>
                     <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" style={{ transform: 'scaleX(-1)' }}>
                       <polyline points="15 14 20 9 15 4"></polyline>
                       <path d="M4 20v-7a4 4 0 0 1 4-4h12"></path>
