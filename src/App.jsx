@@ -5,7 +5,7 @@ import Desktop from './Components/Desktop';
 export default function App() {
   // themePreference: "system" | "light" | "dark"
   const [themePreference, setThemePreference] = useState(() => {
-    return sessionStorage.getItem('mac_portfolio_theme') || 'system';
+    return sessionStorage.getItem('mac_portfolio_theme') || 'dark';
   });
 
   useEffect(() => {
