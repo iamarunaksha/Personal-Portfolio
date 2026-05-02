@@ -10,7 +10,7 @@ export const portfolioData = {
   linkedinUrl: "https://linkedin.com/in/arunakshas",
   
   // Replace this with your actual Google Drive URL
-  resumeUrl: "https://drive.google.com/file/d/16dhZlhxua6NElwpvuTw_a2cKblQjo3Vh/view?usp=drive_link",
+  resumeUrl: "https://drive.google.com/file/d/1zLcj-2g8Z927TO8K9ynDRtdrCq-u2elk/view?usp=drive_link",
   
   // Spotify / Music
   // Go to Spotify -> Share -> Embed Track/Playlist and paste the 'src' URL here
