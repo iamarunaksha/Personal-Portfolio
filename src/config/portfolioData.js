@@ -13,7 +13,6 @@ export const portfolioData = {
   resumeUrl: "https://drive.google.com/file/d/1N3f2wPSJEsZwYvcqeJo2MdHZ6Zz9peuU/view?usp=sharing",
   
   // Spotify / Music
-  // Go to Spotify -> Share -> Embed Track/Playlist and paste the 'src' URL here
   spotifyEmbedUrl: "https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ?utm_source=generator",
 
   // Terminal / About Me Text
