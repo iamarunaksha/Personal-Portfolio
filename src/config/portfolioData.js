@@ -9,8 +9,8 @@ export const portfolioData = {
   githubUrl: "https://github.com/iamarunaksha",
   linkedinUrl: "https://linkedin.com/in/arunakshas",
   
-  // Replace this with your actual Google Drive URL
-  resumeUrl: "https://drive.google.com/file/d/1zLcj-2g8Z927TO8K9ynDRtdrCq-u2elk/view?usp=drive_link",
+  // Google Drive URL
+  resumeUrl: "https://drive.google.com/file/d/1N3f2wPSJEsZwYvcqeJo2MdHZ6Zz9peuU/view?usp=sharing",
   
   // Spotify / Music
   // Go to Spotify -> Share -> Embed Track/Playlist and paste the 'src' URL here
@@ -78,7 +78,7 @@ Enjoy your stay!
     }
   ],
 
-  // Finder > Experience (Placeholder Data)
+  // Finder > Experience
   experience: [
     {
       id: "TCS.exp",
@@ -94,7 +94,7 @@ Enjoy your stay!
     }
   ],
 
-  // Finder > Education (Placeholder Data)
+  // Finder > Education
   education: [
     {
       id: "B.Tech",
